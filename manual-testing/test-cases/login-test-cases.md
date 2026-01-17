@@ -37,6 +37,8 @@
 - User remains on the login page  
 - Password field may be cleared (depending on application behavior)
 
+**Related bug:** BUG-001
+
 ---
 
 ## TC-03 Empty email field

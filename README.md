@@ -2,15 +2,13 @@
 
 ## About me
 Junior QA Tester with basic experience in manual and automated testing.
-This repository contains examples of my testing work and learning projects.
+This repository contains practical examples of my testing work, created as part of my learning and preparation for a Junior / Trainee QA position.
 
 ## Tools & Technologies
 - Manual testing
-- JIRA (bug reporting, test management)
 - Postman (API testing)
 - SQL (basic queries)
 - Playwright (automated testing)
-- IntelliJ IDEA
 - Git & GitHub
 
 ## Portfolio content

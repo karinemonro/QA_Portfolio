@@ -23,4 +23,4 @@ This folder contains a small API testing portfolio created in Postman.
 - POST create post
 - PUT update post
 - PATCH edit post title
-- DELETE post 
+- DELETE post

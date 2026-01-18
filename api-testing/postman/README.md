@@ -1,11 +1,26 @@
-# API Testing (Postman)
+# API Testing – Postman
 
-This folder contains exported Postman collections used for API testing practice.
+This folder contains a small API testing portfolio created in Postman.
 
-## Content
-- `login-api-tests.postman_collection.json` – example requests and basic checks for login/auth scenarios
-- `environment.postman_environment.json` (optional) – variables for base URL, tokens, etc.
+## Tools
+- Postman
+- Environment variables
 
-## Notes
-- Sensitive data is not stored in the repository (real passwords/tokens).
-- Replace `{{baseUrl}}` with your target API endpoint via environment variables.
+## How to run
+1. Import the Postman collection file
+2. Import the Postman environment file
+3. Select the environment
+4. Run requests manually or via Collection Runner
+
+## Files
+- `api-tests.postman_collection.json` – Postman collection with requests and tests
+- `qa-portfolio.postman_environment.json` – environment with `baseUrl`
+
+## Covered scenarios
+- GET users (smoke test)
+- GET user detail
+- GET user posts
+- POST create post
+- PUT update post
+- PATCH edit post title
+- DELETE post 

@@ -1,78 +1,98 @@
 # Login – Test Cases
 
+**Application Under Test:** Practice Test Automation – Login  
+**URL:** https://practicetestautomation.com/practice-test-login/
+
+## Test Data
+- **Valid username:** student  
+- **Valid password:** Password123  
+
+---
+
 ## TC-01 Valid login
+
 **Priority:** High  
 
-**Preconditions:**  
-- User account exists: `testuser@example.com` / `ValidPassword123`
+**Preconditions:**
+- User is on the login page  
+- Valid user account exists  
 
-**Steps:**  
+**Steps:**
 1. Open the login page  
-2. Enter email: `testuser@example.com`  
-3. Enter password: `ValidPassword123`  
-4. Click **Login**
+2. Enter username: `student`  
+3. Enter password: `Password123`  
+4. Click **Submit**
 
-**Expected result:**  
+**Expected Result:**
 - User is successfully authenticated  
-- User is redirected to the **Dashboard** page  
-- Dashboard loads without errors
+- User is redirected to the *Logged In Successfully* page  
+- Confirmation message is displayed  
+- Logout button is visible  
 
 ---
 
 ## TC-02 Invalid password
+
 **Priority:** High  
 
-**Preconditions:**  
-- User account exists: `testuser@example.com`
+**Preconditions:**
+- User is on the login page  
+- Valid username exists  
 
-**Steps:**  
+**Steps:**
 1. Open the login page  
-2. Enter email: `testuser@example.com`  
+2. Enter username: `student`  
 3. Enter invalid password: `WrongPassword`  
-4. Click **Login**
+4. Click **Submit**
 
-**Expected result:**  
+**Expected Result:**
 - Login fails  
-- Error message is displayed, e.g. *"Invalid email or password"*  
+- Error message is displayed: *"Your password is invalid!"*  
 - User remains on the login page  
-- Password field may be cleared (depending on application behavior)
+- User is clearly informed that authentication failed  
 
-**Related bug:** BUG-001
+**Related Bug:** BUG-001  
 
 ---
 
-## TC-03 Empty email field
+## TC-03 Empty username field
+
 **Priority:** Medium  
 
-**Preconditions:**  
+**Preconditions:**
 - User is on the login page  
-- Valid password exists: `ValidPassword123`
 
-**Steps:**  
+**Steps:**
 1. Open the login page  
-2. Leave the email field empty  
-3. Enter password: `ValidPassword123`  
-4. Click **Login**
+2. Leave the username field empty  
+3. Enter password: `Password123`  
+4. Click **Submit**
 
-**Expected result:**  
+**Expected Result:**
 - Login is not allowed  
-- Validation message is displayed for the email field (e.g. *"Email is required"*)  
-- User remains on the login page
+- Error or validation message is displayed  
+- User remains on the login page  
 
 ---
 
-## TC-04 Invalid email format
+## TC-04 Invalid username format
+
 **Priority:** Medium  
 
-**Preconditions:**  
+**Preconditions:**
 - User is on the login page  
-- Valid password exists: `ValidPassword123`
 
-**Steps:**  
+**Steps:**
 1. Open the login page  
-2. Enter an invalid email format, e.g. `testuser@`  
-3. Enter password: `ValidPassword123`  
-4. Click **Login**
+2. Enter an invalid username (e.g. `student@`)  
+3. Enter password: `Password123`  
+4. Click **Submit**
+
+**Expected Result:**
+- Login fails  
+- Error message is displayed  
+- User remains on the login page  
+
 
 **Expected result:**  
 - Login is not allowed  

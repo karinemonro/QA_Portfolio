@@ -1,5 +1,9 @@
 # BUG-001 – No error message for invalid login
 
+! Note:
+This bug report is a simulated example created for portfolio purposes.
+The issue does not exist in the tested application.
+
 **Summary:**  
 No error message is displayed when logging in with a valid email and an invalid password.
 

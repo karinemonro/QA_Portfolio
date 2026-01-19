@@ -1,5 +1,5 @@
 /* Northwind sample database queries
-   Common tables used here:
+   Tables used here:
    Customers, Orders, Order Details, Products, Categories
 */
 

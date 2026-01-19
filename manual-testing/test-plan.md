@@ -23,9 +23,6 @@ The purpose of this test plan is to define the approach for testing the login fu
 
 ## Test Data
 - Valid user credentials: `testuser@example.com / ValidPassword123`
-- Invalid credentials: valid email with invalid password
-- Invalid email formats (e.g. `testuser@`)
-- Empty email field
 
 ---
 

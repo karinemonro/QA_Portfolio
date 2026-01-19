@@ -4,6 +4,8 @@
 This bug report is a simulated example created for portfolio purposes.
 The issue does not exist in the tested application.
 
+**Related Test Case:** TC-02 – Invalid password
+
 **Summary:**  
 No error message is displayed when logging in with a valid email and an invalid password.
 

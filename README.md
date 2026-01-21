@@ -14,7 +14,7 @@ This repository contains practical examples of my testing work, created as part 
 ## Portfolio content
 - **Manual testing** – test cases, bug reports, test plan
 - **API testing** – Postman collections
-- **Automation testing** – Playwright test examples
+- **Automated testing** – Playwright test examples
 - **SQL** – basic SQL query examples
 
 ## Goal

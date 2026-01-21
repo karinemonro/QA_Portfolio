@@ -1,4 +1,4 @@
-# Automation Testing – Playwright
+# Automated Testing – Playwright
 
 This folder contains UI automated tests created using Playwright as part of my QA portfolio.
 
